@@ -13,22 +13,22 @@ const certificate_item = [
   },
   {
     id: 3,
-    title: `SwiftUI Masterclass 2022 - iOS App Development & Swift`,
+    title: 'SwiftUI Masterclass 2022 - iOS App Development & Swift',
     subtitle: 'Associated with PT. Pegadaian',
   },
   {
     id: 4,
-    title: `Upgrade Your Social Media Skills`,
+    title: 'Upgrade Your Social Media Skills',
     subtitle: 'Associated with PT. Pegadaian',
   },
   {
     id: 5,
-    title: `Transfer Knowledge Microservices Integration Platform in Openshift Container Platform and API Management`,
+    title: 'Transfer Knowledge Microservices Integration Platform in Openshift Container Platform and API Management',
     subtitle: 'Associated with PT. Pegadaian',
   },
   {
     id: 6,
-    title: `iOS Programming with Swift`,
+    title: 'iOS Programming with Swift',
     subtitle: 'Associated with PT. Bank Permata Tbk',
   }
 ]

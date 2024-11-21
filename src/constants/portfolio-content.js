@@ -1,11 +1,15 @@
-import Work1 from '../../public/work/work1.png'
-import Work2 from '../../public/work/work2.png'
-import Work3 from '../../public/work/work3.png'
-import Work4 from '../../public/work/work4.jpeg'
-import Work5 from '../../public/work/work5.png'
-import Work6 from '../../public/work/work6.jpeg'
-import Work7 from '../../public/work/work7.jpg'
-import Work8 from '../../public/work/work8.png'
+import Work1 from '../../public/work/kitawarga.png'
+import Work2 from '../../public/work/work1.png'
+import Work3 from '../../public/work/work2.png'
+import Work4 from '../../public/work/Work3.png'
+import Work5 from '../../public/work/Work4.png'
+import Work6 from '../../public/work/work5.png'
+import Work7 from '../../public/work/work6.png'
+import Work8 from '../../public/work/work7.png'
+import Work9 from '../../public/work/work9.jpeg'
+import Work10 from '../../public/work/work10.png'
+import Work11 from '../../public/work/work11.png'
+import Work12 from '../../public/work/work12.jpg'
 
 const title = 'Portfolio'
 const subtitle = 'Most recent work'
@@ -13,7 +17,7 @@ const subtitle = 'Most recent work'
 const portfolio_item = [
   {
     id: 1,
-    image: Work1,
+    image: Work2,
     title: 'PT Bank SMBC Indonesia Tbk',
     category: 'Mobile Application',
     description: 'Develop Mobile Application for Jenius Daya with React Native',
@@ -52,6 +56,211 @@ const portfolio_item = [
   },
   {
     id: 2,
+    image: Work5,
+    title: 'Bank Permata',
+    category: 'Mobile Application',
+    description: 'Develop Mobile Aplication for Bank Permata with React Native',
+    info: [
+      {
+        id: 1,
+        title: 'Apps Performance Optimization Spesialist'
+      },
+      {
+        id: 2,
+        title: 'Develop feature for Permata Mobile X / Permata ME'
+      },
+      {
+        id: 3,
+        title: 'Create Standarization Code for Permata Mobile X / Permata ME'
+      },
+      {
+        id: 4,
+        title: 'Create CI/CD for Permata Mobile X / Permata ME'
+      },
+      {
+        id: 5,
+        title: 'Create SDK iOS for Opening Account Permata Bank with Swift & Clean Architecture'
+      }, 
+      {
+        id: 6,
+        title: 'Refactoring Code for Permata Mobile X / Permata ME'
+      }, 
+
+    ],
+    result: [
+      {
+        id: 1,
+        icon: 'bxl-apple',
+        link: 'https://apps.apple.com/id/app/permata-me/id1323973644',
+        title: 'App Store'
+      },
+      {
+        id: 2,
+        icon: 'bxl-google',
+        link: 'https://play.google.com/store/apps/details?id=net.myinfosys.PermataMobileX&hl=id',
+        title: 'Google Play Store'
+      }
+    ],
+    filterId: 1,
+    position: 'Co Lead Mobile Developer'
+  },
+  {
+    id: 3,
+    image: Work6,
+    title: 'Pegadaian Digital',
+    category: 'Mobile Application',
+    description: 'Develop Mobile Aplication for Pegadaian Digital with React Native',
+    info: [
+      {
+        id: 1,
+        title: 'Reskin/Revamp for Pegadaian Digital'
+      },
+      {
+        id: 2,
+        title: 'Develop feature for Pegadaian Digital'
+      },
+      {
+        id: 3,
+        title: 'Integrate API Payment with Bank'
+      },
+      {
+        id: 4,
+        title: 'Integrate API with Gojek'
+      },
+      {
+        id: 5,
+        title: 'Create Standarization Code for Pegadaian Digital'
+      },
+      {
+        id: 6,
+        title: 'Create CI/CD for Pegadaian Digital'
+      },
+      {
+        id: 6,
+        title: 'Deploy to App Store and Google Play Store'
+      },
+      {
+        id: 7,
+        title: 'Horizontal Scalling for Pegadaian Digital'
+      },
+    ],
+    result: [
+      {
+        id: 1,
+        icon: 'bxl-apple',
+        link: 'https://apps.apple.com/us/app/pegadaian-digital/id1350501409',
+        title: 'App Store'
+      },
+      {
+        id: 2,
+        icon: 'bxl-google',
+        link: 'https://play.google.com/store/apps/details?id=com.pegadaiandigital&hl=id',
+        title: 'Google Play Store'
+      },
+    ],
+    filterId: 1,
+    position: 'Tech Lead Mobile Developer'
+  },
+  {
+    id: 4,
+    image: Work3,
+    title: 'b2app.io',
+    category: 'Website & Mobile Application',
+    description: 'Develop website for convert website to mobile application and build APK, iOS.',
+    info: [
+      {
+        id: 1,
+        title: 'Develop website b2app.io with Next JS'
+      },
+      {
+        id: 2,
+        title: 'Develop website dashboard b2app.io with Next JS'
+      },
+      {
+        id: 3,
+        title: 'Develop website admin b2app.io with React JS'
+      },
+      {
+        id: 4,
+        title: 'Create CI/CD with CodeMagic and integrate to Bitbucket'
+      },
+      {
+        id: 5,
+        title: 'Develop base app for b2app.io with Flutter'
+      },
+      {
+        id: 6,
+        title: 'Develop backend for b2app.io with Golang and PostgreSQL'
+      }
+    ],
+    result: [
+      {
+        id: 1,
+        icon: 'bx-link',
+        link: 'https://b2app.io/',
+        title: 'Website'
+      }
+    ],
+    filterId: 1,
+    position: 'Freelance - Fullstack Developer'
+  },
+  {
+    id: 5,
+    image: Work4,
+    title: 'ScoreQuest',
+    category: 'Mobile & Website Application',
+    description: 'Develop mobile application and website for update score E-Sports and manage tournament.',
+    info: [
+      {
+        id: 1,
+        title: 'Develop mobile application for ScoreQuest with Flutter'
+      },
+      {
+        id: 2,
+        title: 'Develop website for ScoreQuest with React JS'
+      },
+      {
+        id: 3,
+        title: 'Develop backend for ScoreQuest with Golang and PostgreSQL'
+      },
+      {
+        id: 4,
+        title: 'Develop CMS for ScoreQuest with React JS'
+      },
+      {
+        id: 5,
+        title: 'Create Notification for ScoreQuest with FCM'
+      },
+      {
+        id: 6,
+        title: 'Integrate Bracket Tournament with chalonge'
+      }
+    ],
+    result: [
+      {
+        id: 1,
+        icon: 'bxl-apple',
+        link: 'https://apps.apple.com/id/app/scorequest/id6475076922',
+        title: 'App Store'
+      },
+      {
+        id: 2,
+        icon: 'bxl-google',
+        link: 'https://play.google.com/store/apps/details?id=com.project.scorequest&hl=id',
+        title: 'Google Play Store'
+      },
+      {
+        id: 3,
+        icon: 'bx-link',
+        link: 'https://scorequest.id/',
+        title: 'Website'
+      }
+    ],
+    filterId: 1,
+    position: 'Freelance - Fullstack Developer'
+  },
+  {
+    id: 6,
     image: Work1,
     title: 'KitaWarga',
     category: 'Mobile & Website Application',
@@ -94,307 +303,285 @@ const portfolio_item = [
       {
         id: 1,
         icon: 'bx-link',
-        link: 'https://apps.apple.com/us/app/jenius/id1079340119',
+        link: 'https://kitawarga.com/',
         title: 'Website'
       },
       {
         id: 2,
         icon: 'bxl-google',
-        link: 'https://play.google.com/store/apps/details?id=com.btpn.dc&hl=en_US',
+        link: 'https://play.google.com/store/apps/details?id=com.project.kita_warga_apps&hl=id',
         title: 'Google Play Store'
       }
     ],
     filterId: 1,
-    position: 'Frontend Developer'
+    position: 'Fullstack Developer'
   },
   {
-    id: 3,
-    image: Work2,
-    title: 'Prixa.ai',
-    category: 'Website Application',
-    description: 'Develop website for health consultation with Vue JS and migrate Rest API to Graphql with React Apollo',
+    id: 7,
+    image: Work11,
+    title: 'Praktisi Mengajar',
+    category: 'Dosen',
+    description: 'Dosen Praktisi Mengajar di Universitas Teknokrat Indonesia',
     info: [
       {
         id: 1,
-        title: 'Migrate React API to Graphql with React Apollo'
-      }
+        title: 'Dosen Matakuliah UI/UX'
+      },
+     
     ],
     result: [
-      {
-        id: 1,
-        icon: 'bx-link',
-        link: 'https://www.prixa.ai/',
-        title: 'Website'
-      }
+      
     ],
     filterId: 1,
-    position: 'Freelance - Frontend Developer'
+    position: 'Dosen Praktisi Mengajar'
   },
+ 
+  
   {
-    id: 4,
-    image: Work3,
-    title: 'Halojasa',
-    category: 'Mobile & Website Application',
-    description: 'Develop mobile application for On Demand service with React Native, start from init, setup, until the product released to App Store and Google Play Store',
+    id: 8,
+    image: Work7,
+    title: 'Pegadaian Digital Syariah',
+    category: 'Mobile Application',
+    description: 'Develop Mobile Aplication for Pegadaian Digital Syariah with Java and Swift',
     info: [
       {
         id: 1,
-        title: 'Init and setup the project'
+        title: 'Reskin/Revamp for Pegadaian Digital Syariah'
       },
       {
         id: 2,
-        title: 'Create Screen and setup Navigation'
+        title: 'Develop feature for Pegadaian Digital Syariah with MVVM + Clean Architecture'
       },
       {
         id: 3,
-        title: 'Handling Rest API with Axios'
+        title: 'Integrate API Payment with Bank Syariah'
       },
       {
         id: 4,
-        title: 'Handling Authentication'
+        title: 'Re-Design Architecture for Pegadaian Digital Syariah'
       },
       {
         id: 5,
-        title: 'Implement Redux, Navigation, Axios Interceptor, React Hooks, Firebase Analytics, and Cloud Messaging'
+        title: 'Create Standarization Code for Pegadaian Digital Syariah'
       },
       {
         id: 6,
-        title: 'Create an automation deployment and distribution app using Fastlane and Firebase App Distribution'
+        title: 'Create CI/CD for Pegadaian Digital Syariah'
+      },
+      {
+        id: 6,
+        title: 'Deploy to App Store and Google Play Store'
       },
       {
         id: 7,
-        title: 'Create a build for Production'
-      }
+        title: 'Implement Object Storage with min.io'
+      },
+      {
+        id: 8,
+        title: 'Implement Centralized Logging with ELK'
+      },
+      {
+        id: 8,
+        title: 'Implement Analytics with Google Analytics'
+      },
+      {
+        id: 8,
+        title: 'Implement Docker for Backend and Frontend'
+      },
+      {
+        id: 9,
+        title: 'Develop Feature for Pegadaian Digital Syariah (Backend) with Spring Boot and MySQL'
+      },
+      {
+        id: 10,
+        title: 'Develop Feature for Pegadaian Digital Syariah (Frontend) with React JS and Redux'
+      },
     ],
     result: [
       {
         id: 1,
         icon: 'bxl-apple',
-        link: 'https://apps.apple.com/id/app/halojasa/id1492671277?l=id',
+        link: 'https://apps.apple.com/id/app/pegadaian-syariah-digital/id1463026343',
         title: 'App Store'
       },
       {
         id: 2,
         icon: 'bxl-google',
-        link: 'https://play.google.com/store/apps/details?id=halo.jasa.startup&hl=en_US&gl=US',
+        link: 'https://play.google.com/store/apps/details?id=co.pegadaian.syariah.nasabah&hl=id',
         title: 'Google Play Store'
       },
-      {
-        id: 3,
-        icon: 'bx-link',
-        link: 'https://halojasa.com/',
-        title: 'Website'
-      }
     ],
     filterId: 1,
-    position: 'Mobile Engineer'
+    position: 'Tech Lead Mobile Developer'
   },
   {
-    id: 5,
-    image: Work4,
-    title: 'TAM Syariah',
-    category: 'Mobile & Website Application',
-    description: 'Private Repository - Develop mobile application for Sales to register their customer with React Native and Admin Dashboard with React JS and Core UI',
+    id: 9,
+    image: Work8,
+    title: 'Agen Pegadaian Syariah',
+    category: 'Mobile Application',
+    description: 'Develop Mobile Aplication for Agen Pegadaian Syariah with Java',
     info: [
       {
         id: 1,
-        title: 'Init and setup the project'
+        title: 'Develop feature for Pegadaian Digital Syariah with MVVM + Clean Architecture'
       },
       {
         id: 2,
-        title: 'Create Screen and setup Navigation'
+        title: 'Integrate API Payment with Bank Syariah'
       },
       {
         id: 3,
-        title: 'Handling Rest API with Axios'
+        title: 'Re-Design Architecture for Agen Pegadaian Syariah'
       },
       {
         id: 4,
-        title: 'Handling Authentication'
+        title: 'Create Standarization Code for Pegadaian Digital Syariah'
       },
       {
         id: 5,
-        title: 'Create a build for Production'
-      }
-    ],
-    result: [],
-    filterId: 1,
-    position: 'Freelance - Frontend Developer'
-  },
-  {
-    id: 6,
-    image: Work5,
-    title: 'Sahabat Lawyer',
-    category: 'Mobile & Website Application',
-    description: 'Develop mobile application for Consultation with Lawyer with React Native and Admin Dashboard with React JS and Core UI',
-    info: [
-      {
-        id: 1,
-        title: 'Init and setup the project'
-      },
-      {
-        id: 2,
-        title: 'Create Screen and setup Navigation'
-      },
-      {
-        id: 3,
-        title: 'Handling Rest API with Axios'
-      },
-      {
-        id: 4,
-        title: 'Handling Authentication'
-      },
-      {
-        id: 5,
-        title: 'Create chat feature with voximplant and firebase'
+        title: 'Create CI/CD for Pegadaian Digital Syariah'
       },
       {
         id: 6,
-        title: 'Create a build for Production'
-      }
+        title: 'Deploy to Google Play Store'
+      },
+      {
+        id: 7,
+        title: 'Implement Object Storage with min.io'
+      },
+      {
+        id: 8,
+        title: 'Implement Centralized Logging with ELK'
+      },
+      {
+        id: 8,
+        title: 'Implement Analytics with Google Analytics'
+      },
+      {
+        id: 8,
+        title: 'Implement Docker for Backend and Frontend'
+      },
+      {
+        id: 9,
+        title: 'Develop Feature for Agen Pegadaian Syariah (Backend) with Spring Boot and MySQL'
+      },
+      {
+        id: 10,
+        title: 'Develop Feature for Agen Pegadaian Syariah (Frontend) with React JS and Redux'
+      },
     ],
     result: [
       {
         id: 1,
         icon: 'bxl-google',
-        link: 'https://play.google.com/store/apps/details?id=com.sahabatlawyer&hl=in&gl=US',
+        link: 'https://play.google.com/store/apps/details?id=co.pegadaian.syariah.agen&hl=id',
         title: 'Google Play Store'
-      }
+      },
     ],
     filterId: 1,
-    position: 'Freelance - Frontend Developer'
+    position: 'Tech Lead Mobile Developer'
   },
   {
-    id: 7,
-    image: Work6,
-    title: 'Toko Insani',
-    category: 'Mobile Application',
-    description: 'Private Repository - Develop mobile application for E-Commerce Cooperative with React Native',
+    id: 10,
+    image: Work9,
+    title: 'Kemendikbud RI',
+    category: 'Website Application',
+    description: 'Develop Website Aplication Bidikmisi for Kemendikbud RI with Yii Framework',
     info: [
       {
         id: 1,
-        title: 'Init and setup the project'
-      },
-      {
-        id: 2,
-        title: 'Create Screen and setup Navigation'
-      },
-      {
-        id: 3,
-        title: 'Handling Rest API with Axios'
-      },
-      {
-        id: 4,
-        title: 'Handling Authentication'
-      },
-      {
-        id: 5,
-        title: 'Create a build for Production'
+        title: 'Develop feature for bidikmisi with Yii Framework'
       }
     ],
     result: [],
     filterId: 1,
-    position: 'Freelance - Frontend Developer'
+    position: 'Web Developer'
   },
   {
-    id: 8,
-    image: Work8,
-    title: 'Github User',
-    category: 'Android Application',
-    description: 'Develop android application with kotlin for get Dicoding "Belajar Fundamental Aplikasi Android" Certificate',
+    id: 11,
+    image: Work10,
+    title: 'Kompasiana.com',
+    category: 'Website Application',
+    description: 'Develop Website Aplication for Kompasiana.com',
     info: [
       {
         id: 1,
-        title: 'Develop android application with kotlin'
+        title: 'Develop feature for kompasiana with CodeIgniter Framework'
       },
       {
         id: 2,
-        title: 'Learning how to create Activity and Fragment'
+        title: 'Develop feature for kompasiana with Laravel Framework'
       },
       {
         id: 3,
-        title: 'Design UI with XML'
-      },
-      {
-        id: 4,
-        title: 'Integrate Github API with retrofit'
-      },
-      {
-        id: 5,
-        title: 'Implement recyclerview to render list'
-      },
-      {
-        id: 6,
-        title: 'Implement basic ui testing with mockito and espresso'
+        title: 'Develop feature for kompasiana with MongoDB'
       }
     ],
     result: [
       {
         id: 1,
-        icon: 'bxl-android',
-        link: 'https://github.com/gandarain/github-user/releases',
-        title: 'APK'
+        icon: 'bx-link',
+        link: 'https://www.kompasiana.com/',
+        title: 'Website Kompasiana.com'
       },
       {
         id: 2,
-        icon: 'bxl-github',
-        link: 'https://github.com/gandarain/github-user',
-        title: 'Github'
-      }
+        icon: 'bx-link',
+        link: 'https://ramadan.kompasiana.com/',
+        title: 'Website THR Kompasiana.com'
+      },
+      {
+        id: 1,
+        icon: 'bx-link',
+        link: 'https://www.kompasiana.com/',
+        title: 'Website ICD Kompasiana.com'
+      },
     ],
-    filterId: 2,
+    filterId: 1,
+    position: 'Web Developer'
   },
   {
-    id: 9,
-    image: Work8,
-    title: 'Story App',
-    category: 'Android Application',
-    description: 'Develop android application with kotlin for get Dicoding "Belajar Fundamental Aplikasi Android" Certificate',
+    id: 12,
+    image: Work12,
+    title: 'Universitas Teknokrat Indonesia',
+    category: 'IT Support',
+    description: 'IT Support & Dosen for Universitas Teknokrat Indonesia',
     info: [
       {
         id: 1,
-        title: 'Develop android application with kotlin'
+        title: 'Maintance Laboratory for Universitas Teknokrat Indonesia'
       },
       {
         id: 2,
-        title: 'Implement livedata'
+        title: 'Dosen Praktikum for Universitas Teknokrat Indonesia'
       },
       {
         id: 3,
-        title: 'Learning how to create Activity and Fragment'
-      },
-      {
-        id: 4,
-        title: 'Design UI with XML'
-      },
-      {
-        id: 5,
-        title: 'Integrate Github API with retrofit'
-      },
-      {
-        id: 6,
-        title: 'Implement recyclerview to render list'
-      },
-      {
-        id: 7,
-        title: 'Implement basic ui testing with mockito and espresso'
+        title: 'Develop System for Universitas Teknokrat Indonesia'
       }
     ],
     result: [
       {
         id: 1,
-        icon: 'bxl-android',
-        link: 'https://github.com/gandarain/Story-App/releases',
-        title: 'APK'
+        icon: 'bx-link',
+        link: 'https://www.kompasiana.com/',
+        title: 'Website Kompasiana.com'
       },
       {
         id: 2,
-        icon: 'bxl-github',
-        link: 'https://github.com/gandarain/Story-App',
-        title: 'Github'
-      }
+        icon: 'bx-link',
+        link: 'https://ramadan.kompasiana.com/',
+        title: 'Website THR Kompasiana.com'
+      },
+      {
+        id: 1,
+        icon: 'bx-link',
+        link: 'https://www.kompasiana.com/',
+        title: 'Website ICD Kompasiana.com'
+      },
     ],
-    filterId: 2
+    filterId: 1,
+    position: 'Dosen & IT Support'
   },
 ]
 
