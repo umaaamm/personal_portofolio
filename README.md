@@ -10,4 +10,4 @@ You can find the detail information inside `constants` folder.
 
 
 ## Result
-https://gandarain.github.io/gandarainpanjaitan/
+https://umaaamm.online/

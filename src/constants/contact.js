@@ -9,7 +9,7 @@ const contact_info = [
     title: 'Email',
     id: 'umam.tekno@gmail.com',
     icon: 'bx-mail-send',
-    link: `mailto:${process.env.EMAIL}`
+    link: `mailto:umam.tekno@gmail.com`
   },
   {
     key: 2,
