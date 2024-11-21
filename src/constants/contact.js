@@ -16,7 +16,7 @@ const contact_info = [
     title: 'Whatsapp',
     id: '+6281290766692',
     icon: 'bxl-whatsapp',
-    link: `https://api.whatsapp.com/send?phone=6281290766692&text=Hallo, Umam`
+    link: 'https://api.whatsapp.com/send?phone=6281290766692&text=Hallo, Umam'
   }
 ]
 
