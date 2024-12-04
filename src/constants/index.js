@@ -9,6 +9,7 @@ import contact from './contact'
 import certificate_constant from './certificate-content'
 import publication_content from './publication_content'
 import theme from './theme'
+import project_content from './project_content'
 
 const constants = {
   header_menu,
@@ -21,7 +22,8 @@ const constants = {
   contact,
   certificate_constant,
   publication_content,
-  theme
+  theme,
+  project_content
 }
 
 export default constants

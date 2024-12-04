@@ -21,6 +21,10 @@ const button = [
     id: '#portfolio'
   },
   {
+    title: 'Another Project',
+    id: '#project'
+  },
+  {
     title: 'Certificate',
     id: '#certificate'
   },
@@ -33,7 +37,7 @@ const button = [
     id: '#contact'
   }
 ]
-const copyright = ' Umaaamm. All rights reserved'
+const copyright = 'Umaaamm. All rights reserved'
 
 const footer_content = {
 	title, button, copyright

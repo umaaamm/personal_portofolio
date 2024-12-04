@@ -15,6 +15,7 @@ import Snackbar from '@/components/snackbar/Snackbar'
 import Certificate from '@/components/certificate/Certificate'
 import Publication from '@/components/publication/Publication'
 import Loader from '@/components/loader/Loader'
+import ImageProject from '@/components/projectImage/ProjectImage'
 
 const renderProjectDetail = ({ setShowProjectDetail, selectedProject }) => (
   <ProjectDetail
@@ -61,6 +62,7 @@ const Container = () => {
           <Qualification />
           <Skills />
           <Portfolio {...state} />
+          <ImageProject />
           <Certificate />
           <Publication />
           <Contact

@@ -33,10 +33,6 @@ const programming = {
       level: 'Expert'
     },
     {
-      title: 'IoT',
-      level: 'Expert'
-    },
-    {
       title: 'JavaScript',
       level: 'Expert'
     },
@@ -65,10 +61,9 @@ const programming = {
       level: 'Expert'
     },
     {
-      title: 'CI/CD',
-      level: 'Expert'
-    },
-   
+      title: 'Python',
+      level: 'Intermediate'
+    }
   ]
 }
 
@@ -98,7 +93,35 @@ const tools = {
     {
       title: 'Git',
       level: 'Expert'
-    }
+    },
+    {
+      title: 'TensorFlow',
+      level: 'Intermediate'
+    }, 
+    {
+      title: 'R',
+      level: 'Intermediate'
+    },
+    {
+      title: 'Keras',
+      level: 'Intermediate'
+    },
+    {
+      title: 'CI/CD',
+      level: 'Expert'
+    },
+    {
+      title: 'Machine Learning',
+      level: 'Intermediate'
+    },
+    {
+      title: 'IoT',
+      level: 'Expert'
+    },
+    {
+      title: 'Embedded System',
+      level: 'Intermediate'
+    },
   ]
 }
 

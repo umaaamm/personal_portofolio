@@ -26,6 +26,11 @@ const content_header = [
     id: 'portfolio'
   },
   {
+    text: 'Another Project',
+    icon: 'scenery',
+    id: 'project'
+  },
+  {
     text: 'Certificate',
     icon: 'copy',
     id: 'certificate'
