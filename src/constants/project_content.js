@@ -1,4 +1,7 @@
 import Publication1 from '../../public/allproject.png'
+import ngajar from '../../public/ngajar.jpeg'
+import lokakarya from '../../public/lokakarya.jpeg'
+
 
 const title = 'Another Project'
 const description = 'All Project'
@@ -7,14 +10,14 @@ const publication_item = [
     id: 1,
     title: 'Praktisi Mengajar - Pemograman Bergerak 2 Menggunakan Flutter - STMIK Jakarta STI&K',
     subtitle: 'Des 2024',
-    image: Publication1,
+    image: ngajar,
     decs: 'Dalam hal ini saya mengajarkan mata kuliah pemograman bergerak 2 menggunakan flutter yang dinama pada kelas ini output dari kelas ini adalah mini project untuk mahasiswa.'
   },
   {
     id: 2,
     title: 'Narasumber Pembuatan Blue Print Pengembangan Aplikasi Mobile di STMIK Jakarta STI&K',
     subtitle: 'Okt 2024',
-    image: Publication1,
+    image: lokakarya,
     decs: 'Dalam hal ini saya diminta oleh PIC untuk memberikan materi terkait mobile development di dunia industri dengan tujuan dapat menjadi acuan atau blue print bagi dosen untuk mengembangkan aplikasi kampus tersebut.'
   },
   {

@@ -29,16 +29,16 @@ const qualification_list = [
     date: 'January 2024 - Present',
     link: 'https://www.linkedin.com/company/smbc-indonesia/'
   },
+  // {
+  //   id: 3,
+  //   qualification_id: 2,
+  //   title: 'CTO / Founder',
+  //   subtitle: 'PT Kita Karya Teknologi Nusantara',
+  //   date: 'Juni 2023 - Present',
+  //   link: '-'
+  // },
   {
     id: 3,
-    qualification_id: 2,
-    title: 'CTO / Founder',
-    subtitle: 'PT Kita Karya Teknologi Nusantara',
-    date: 'Juni 2023 - Present',
-    link: '-'
-  },
-  {
-    id: 4,
     qualification_id: 2,
     title: 'Dosen Praktisi Mengajar',
     subtitle: 'Kemendikbud RI',
@@ -46,7 +46,7 @@ const qualification_list = [
     link: 'https://www.kemdikbud.go.id/'
   },
   {
-    id: 5,
+    id: 4,
     qualification_id: 2,
     title: 'Co Lead Mobile Developer',
     subtitle: 'PT Bank Permata Tbk',
@@ -54,7 +54,7 @@ const qualification_list = [
     link: 'https://www.linkedin.com/company/permatabank/'
   },
   {
-    id: 6,
+    id: 5,
     qualification_id: 2,
     title: 'Tech Lead',
     subtitle: 'PT Pegadaian',
@@ -62,7 +62,7 @@ const qualification_list = [
     link: 'https://www.linkedin.com/company/ptpegadaian/'
   },
   {
-    id: 7,
+    id: 6,
     qualification_id: 2,
     title: 'Web Developer - Bidik Misi',
     subtitle: 'Kemendikbud RI',
@@ -70,7 +70,7 @@ const qualification_list = [
     link: 'https://www.kemdikbud.go.id/'
   },
   {
-    id: 8,
+    id: 7,
     qualification_id: 2,
     title: 'Web Developer',
     subtitle: 'PT Kompas Cyber Media - Kompas.com',
@@ -78,7 +78,7 @@ const qualification_list = [
     link: 'https://www.kompasiana.com/'
   },
   {
-    id: 9,
+    id: 8,
     qualification_id: 2,
     title: 'IT Support',
     subtitle: 'Universitas Teknokrat Indonesia',
